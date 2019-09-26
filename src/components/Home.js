@@ -1,15 +1,41 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import BitLink from '';
-function Home() {
+import "../../src/CSS/Card.css";
+// import MyCard from "./MyCard";
+import Modal from './Modal/Modal.js';
+// import MyCard from "./MyCard";
+
+class notHome extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      isShowing: false
+  }
+}
+
+openModalHandler = (e) => {
+  e.preventDefault();
+  this.setState({
+      isShowing: true
+  });
+}
+
+closeModalHandler = () => {
+  this.setState({
+      isShowing: false
+  });
+}
+
+render () {
   return (
-    <div className="bluegrad App">
+    <div className="blackgrad App">
+      
       <ul
         style={{
           listStyleType: "none",
-          margin: 0,
-          padding: "10px",
-          width: "200px"
+        display: "block",
+        border: "thick black"
+
         }}
       >
         <li>
@@ -33,9 +59,26 @@ function Home() {
           </Link>
         </li>
       </ul>
-      {/* <img src={BitLink} />   */}
+      <div>
+                { this.state.isShowing ? <div onClick={this.closeModalHandler} className="back-drop"></div> : null }
+
+                {/* <button className="open-modal-btn" onClick={this.openModalHandler}>Open Modal</button> */}
+                <img className="open-modal-btn monster" src='../../Images/clickMe.jpg' alt="click me" onClick={this.openModalHandler} />
+
+                <Modal 
+                    className="modal"
+                    show={this.state.isShowing}
+                    close={this.closeModalHandler}>
+                      
+                </Modal>
+            </div>
+
+
         </div>
   );
 }
+}
+
+
 
 export default Home;
