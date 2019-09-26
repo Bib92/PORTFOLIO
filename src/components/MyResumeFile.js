@@ -6,7 +6,7 @@ class MyResumeFile extends Component {
     return (
       <div>
 <iframe 
-src="https://drive.google.com/file/d/1cqYLzS_yefYmSJ4C3TtqT6LiEOTl8Czz/preview?usp=embed_googleplus" 
+src="https://drive.google.com/file/d/1wZV87EApmomQ2LxiUA24bV2J2Ee0-3AI/preview?usp=embed_googleplus" 
 className="resumefile"
 allowfullscreen>
   </iframe>          
