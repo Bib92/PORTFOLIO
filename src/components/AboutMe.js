@@ -34,7 +34,7 @@ function AboutMe() {
           <div className="bio">Hi! My name is Austin. <br/>
           <br/>
           I am a highly motivated Full Stack Web Developer with a passion for creating, designing, 
-          and building a piece of art. Whether it is designing and programming functional pixal perfect websites,
+          and building a piece of art. Whether it is designing and programming functional pixel perfect websites,
            woodworking and cabinetry, or even drawing with a paper and pen.  I love a finished project I can walk away from, 
            look back on, and be proud of.
             I was born and raised in Utah.   <br/> <br/>
