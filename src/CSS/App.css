@@ -2,13 +2,29 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
 
 canvas{
-  position:relative;
-  margin-top:-100%;
-  height:100%;
+  height:auto;
   z-index:-1;
 
 }
-
+@media screen and (min-width: 1370px) {
+  .webPort{
+    margin-top:50px;
+    margin-bottom:400px;
+  }
+  
+}
+.webPort{
+  margin-top:50px;
+  /* margin-bottom:400px; */
+}
+.spaceHeight {
+  position:fixed;
+  bottom:0;
+  left:0;
+max-height: 100%;
+  width:100%;
+  overflow: hidden;
+}
 
 .App {
   text-align: center;
@@ -99,7 +115,7 @@ canvas{
   text-align: center;
   font-family: 'Audiowide';
   font-size: 90px;
-  margin: 0 0 20px 0;
+  margin: 50px 0 20px 0;
   text-decoration: none;
   -webkit-transition: all 2s;
   -moz-transition: all 2s;
@@ -223,7 +239,7 @@ canvas{
   .monster {
     display:flex;
   margin-left:90%;
-    margin-top:74px;
+    margin-top:30px;
     width:20mm;
     height:20mm;
     background-image:url(clickMe.jpg);

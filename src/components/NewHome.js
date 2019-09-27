@@ -10,12 +10,12 @@ class NewHome extends React.Component {
   
   render() {
     return (
-      <div id="Homie" className="App">
-        
+      <div id="Homie" className=" stretch App">
+        <body className="spaceHeight">
         <p className="p">
-          <a>AUSTIN'S WEB PORTFOLIO</a>
+          <a className="webPort">AUSTIN'S WEB PORTFOLIO</a>
         </p>
-        <div className="navBar">
+        <div className="navBar webPort">
           <Link className="active1" to="/">
             Home{" "}
           </Link>
@@ -49,6 +49,7 @@ class NewHome extends React.Component {
         </div>
         <Welcome className=""WayBack/>
         <Bottom/>
+        </body>
       </div>
     );
   }
