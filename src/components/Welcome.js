@@ -96,8 +96,8 @@ loader.load(
 
 
 // CREATE PART OF THE MOUSE/TOUCH OVER EFFECT
-let mouseX = 0;
-let mouseY = 0;
+let mouseX = 250;
+let mouseY = 200;
 const mouseFX = {
 	windowHalfX: window.innerWidth / 2,
 	windowHalfY: window.innerHeight / 2,
