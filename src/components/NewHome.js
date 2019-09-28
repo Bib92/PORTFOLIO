@@ -11,7 +11,7 @@ class NewHome extends React.Component {
   render() {
     return (
       <div id="Homie" className=" stretch App">
-        <body className="spaceHeight">
+        <div className="spaceHeight">
         <p className="p">
           <a className="webPort">AUSTIN'S WEB PORTFOLIO</a>
         </p>
@@ -49,7 +49,7 @@ class NewHome extends React.Component {
         </div>
         <Welcome className=""WayBack/>
         <Bottom/>
-        </body>
+        </div>
       </div>
     );
   }

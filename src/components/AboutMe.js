@@ -27,8 +27,8 @@ function AboutMe() {
           </Link>
           </div>
           <div className="meFlex">
-          <div class="circular-border">
-      <div class="circular-image"></div>
+          <div className="circular-border">
+      <div className="circular-image"></div>
     </div>
   
           <div className="bio">Hi! My name is Austin. <br/>

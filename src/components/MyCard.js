@@ -73,7 +73,7 @@ function myCard() {
         <div id="copyinfo">
           <span className="iluss"><strong>illus. Austin Burton</strong></span>
           <span className="illus2">&copy;1993-2019 Nintendo, Creatures, GAMEFREAK &copy;1999 Wizards. </span>
-          <span><strong>46/102 &#9899;</strong></span>
+          <span role="img"><strong>46/102 &#9899;</strong></span>
 
 
           
